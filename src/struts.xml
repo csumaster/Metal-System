@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="page" extends="struts-default">
+    	<!-- common -->
+    	<action name="login">
+    		<result>/WEB-INF/jsp/view/tab.jsp</result>
+    	</action>
+    	<action name="home">
+    		<result>/WEB-INF/jsp/view/tab.jsp</result>
+    	</action>
+    	<action name="logout">
+    		<result>/WEB-INF/jsp/view/login.jsp</result>
+    	</action>
+    	<action name="enter">
+    		<result>/WEB-INF/jsp/view/index.jsp</result>
+    	</action>
+    	
+    	<!-- ecology -->
+    	<action name="ecology">
+    		<result>/WEB-INF/jsp/menu/ecology_menu.jsp</result>
+    	</action>
+    	<action name="ecology_1">
+    		<result>/WEB-INF/jsp/main/ecology_1.jsp</result>
+    	</action>
+    	<action name="ecology_2">
+    		<result>/WEB-INF/jsp/main/ecology_2.jsp</result>
+    	</action>
+    	<action name="ecology_3">
+    		<result>/WEB-INF/jsp/main/ecology_3.jsp</result>
+    	</action>
+    	<action name="ecology_4">
+    		<result>/WEB-INF/jsp/main/ecology_4.jsp</result>
+    	</action>
+    	
+    	<!-- emergency -->
+    	<action name="emergency">
+    		<result>/WEB-INF/jsp/menu/emergency_menu.jsp</result>
+    	</action>
+    	<action name="emergency_1">
+    		<result>/WEB-INF/jsp/main/emergency_1.jsp</result>
+    	</action>
+    	<action name="emergency_2">
+    		<result>/WEB-INF/jsp/main/emergency_2.jsp</result>
+    	</action>
+    	<action name="emergency_3">
+    		<result>/WEB-INF/jsp/main/emergency_3.jsp</result>
+    	</action>
+    	<action name="emergency_4">
+    		<result>/WEB-INF/jsp/main/emergency_4.jsp</result>
+    	</action>
+    	<action name="emergency_5">
+    		<result>/WEB-INF/jsp/main/emergency_5.jsp</result>
+    	</action>
+    	<action name="emergency_6">
+    		<result>/WEB-INF/jsp/main/emergency_6.jsp</result>
+    	</action>
+    	<action name="emergency_7">
+    		<result>/WEB-INF/jsp/main/emergency_7.jsp</result>
+    	</action>
+    	<action name="emergency_8">
+    		<result>/WEB-INF/jsp/main/emergency_8.jsp</result>
+    	</action>
+    	
+    	<!-- consumption -->
+    	<action name="consumption">
+    		<result>/WEB-INF/jsp/menu/consumption_menu.jsp</result>
+    	</action>
+    	<action name="consumption_1">
+    		<result>/WEB-INF/jsp/main/consumption_1.jsp</result>
+    	</action>
+    	<action name="consumption_2">
+    		<result>/WEB-INF/jsp/main/consumption_2.jsp</result>
+    	</action>
+    	<action name="consumption_3">
+    		<result>/WEB-INF/jsp/main/consumption_3.jsp</result>
+    	</action>
+    	<action name="consumption_4">
+    		<result>/WEB-INF/jsp/main/consumption_4.jsp</result>
+    	</action>
+    	<action name="consumption_5">
+    		<result>/WEB-INF/jsp/main/consumption_5.jsp</result>
+    	</action>
+    	<action name="consumption_6">
+    		<result>/WEB-INF/jsp/main/consumption_6.jsp</result>
+    	</action>
+    	<action name="consumption_7">
+    		<result>/WEB-INF/jsp/main/consumption_7.jsp</result>
+    	</action>
+    	
+    	<!-- system -->
+    	<action name="system">
+    		<result>/WEB-INF/jsp/menu/system_menu.jsp</result>
+    	</action>
+    	<action name="system_1">
+    		<result>/WEB-INF/jsp/main/system_1.jsp</result>
+    	</action>
+    	<action name="system_2">
+    		<result>/WEB-INF/jsp/main/system_2.jsp</result>
+    	</action>
+    	<action name="system_3">
+    		<result>/WEB-INF/jsp/main/system_3.jsp</result>
+    	</action>
+    	<action name="system_4">
+    		<result>/WEB-INF/jsp/main/system_4.jsp</result>
+    	</action>
+    	<action name="system_5">
+    		<result>/WEB-INF/jsp/main/system_5.jsp</result>
+    	</action>
+    	<action name="system_6">
+    		<result>/WEB-INF/jsp/main/system_6.jsp</result>
+    	</action>
+    	<action name="system_7">
+    		<result>/WEB-INF/jsp/main/system_7.jsp</result>
+    	</action>
+    	
+    </package>
+</struts>

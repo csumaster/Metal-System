@@ -1,0 +1,272 @@
+/* input box */
+.form-input {
+    padding: 2px 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.input-long {
+	width: 188px;
+}
+.input-medium {
+	width: 94px;
+}
+.input-short {
+	width: 47px;
+}
+input[type="text"]:disabled { 
+	background-color: #f9f9f9;
+}
+
+/* button */
+.metalBtn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px
+}
+.metalBtn.active.focus, .metalBtn.active:focus, .metalBtn.focus, .metalBtn:active.focus, .metalBtn:active:focus, .metalBtn:focus {
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px
+}
+.metalBtn.focus, .metalBtn:focus, .metalBtn:hover {
+	color: #333;
+	text-decoration: none
+}
+.metalBtn.active, .metalBtn:active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+.metalBtn.disabled, .metalBtn[disabled], fieldset[disabled] .metalBtn {
+	cursor: not-allowed;
+	filter: alpha(opacity=65);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	opacity: .65
+}
+a.metalBtn.disabled, fieldset[disabled] a.metalBtn {
+	pointer-events: none
+}
+.metalBtn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc
+}
+.metalBtn-default.focus, .metalBtn-default:focus {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #8c8c8c
+}
+.metalBtn-default:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad
+}
+.metalBtn-default.active, .metalBtn-default:active, .open>.dropdown-toggle.metalBtn-default {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad
+}
+.metalBtn-default.active.focus, .metalBtn-default.active:focus, .metalBtn-default.active:hover, .metalBtn-default:active.focus, .metalBtn-default:active:focus, .metalBtn-default:active:hover, .open>.dropdown-toggle.metalBtn-default.focus, .open>.dropdown-toggle.metalBtn-default:focus, .open>.dropdown-toggle.metalBtn-default:hover {
+	color: #333;
+	background-color: #d4d4d4;
+	border-color: #8c8c8c
+}
+.metalBtn-default.active, .metalBtn-default:active, .open>.dropdown-toggle.metalBtn-default {
+	background-image: none
+}
+.metalBtn-default.disabled.focus, .metalBtn-default.disabled:focus, .metalBtn-default.disabled:hover, .metalBtn-default[disabled].focus, .metalBtn-default[disabled]:focus, .metalBtn-default[disabled]:hover, fieldset[disabled] .metalBtn-default.focus, fieldset[disabled] .metalBtn-default:focus, fieldset[disabled] .metalBtn-default:hover {
+	background-color: #fff;
+	border-color: #ccc
+}
+.metalBtn-default .badge {
+	color: #fff;
+	background-color: #333
+}
+
+/* a tag (a-button) */
+.metalABtn {
+	color: #666;
+	background-color: #EEE;
+	border-color: #EEE;
+	font-weight: 300;
+	font-size: 16px;
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 40px;
+	margin: 0;
+	display: inline-block;
+	appearance: none;
+	cursor: pointer;
+	border: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	border-radius: 4px;
+	width: 24px;
+	line-height: 20px;
+	font-size: 12.48px;
+    height: 28.48px;
+    line-height: 28.48px;
+    font-size: 9.6px;
+    height: 24px;
+    line-height: 24px;
+  	padding: 0 24px; 
+}
+
+.metalABtn:visited {
+	color: #666;
+}
+
+.metalABtn:hover, .metalABtn:focus {
+	background-color: #f6f6f6;
+	text-decoration: none;
+	outline: none;
+}
+
+.metalABtn:active, .metalABtn.active, .metalABtn.is-active {
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+	text-decoration: none;
+	background-color: #eeeeee;
+	border-color: #cfcfcf;
+	color: #d4d4d4;
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.metalABtn.disabled, .metalABtn.is-disabled, .metalABtn:disabled {
+	top: 0 !important;
+	background: #EEE !important;
+	border: 1px solid #DDD !important;
+	text-shadow: 0 1px 1px white !important;
+	color: #CCC !important;
+	cursor: default !important;
+	appearance: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	opacity: .8 !important;
+}
+
+/* pages */
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+	color: #949494;
+}
+.pageArea {
+	padding: 15px 20px;
+	text-align: left;
+	color: #ccc;
+	text-align: center;
+}
+.pageArea a {
+	display: inline-block;
+	color: #428bca;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	margin: 0 2px;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+.pageArea a:hover {
+	text-decoration: none;
+	border: 1px solid #428bca;
+}
+.pageArea span.current {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+.pageArea span.disabled {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #bfbfbf;
+	background: #f2f2f2;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.button-tiny {
+    margin: 0 5px;
+    padding: 0 15px;
+}
+
+/* file upload */
+.metalFile {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #333;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.metalFile input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.metalFile:hover {
+    background: #e6e6e6;
+    border-color: #adadad;
+    color: #333;
+    text-decoration: none;
+}
